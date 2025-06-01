@@ -1,0 +1,96 @@
+🧠 Project Description
+This project is based on the Kaggle competition Aerial Cactus Identification, where the task is to automatically identify the presence of cactus plants in aerial images taken from drones.
+
+The goal is to classify each image (32x32 pixels RGB) as:
+
+1 → A cactus is present,
+
+0 → No cactus is present.
+
+This is a binary image classification problem, where we developed a deep learning model using Convolutional Neural Networks (CNN) and built a user-friendly frontend using Streamlit.
+
+
+🔬 Problem Definition
+Given a labeled dataset of aerial images, our objective is to train a CNN model that can learn the visual patterns of cactus presence and make accurate predictions on new unseen images.
+
+This problem is important in the fields of:
+
+Environmental monitoring
+
+Agricultural mapping
+
+Plant conservation
+
+
+
+🛠️ Tools & Technologies
+Python
+
+TensorFlow / Keras for model building
+
+OpenCV and Pillow (PIL) for image processing
+
+Streamlit for frontend web app
+
+Jupyter Notebook for exploratory development
+
+
+
+📊 Model Development
+Data Preparation:
+
+Loaded 17,500+ 32x32 color images.
+
+Resized, normalized, and converted labels to categorical.
+
+Model Architecture (CNN):
+
+Two convolution + max pooling layers
+
+Dense layer with dropout for regularization
+
+Final softmax layer for 2-class output
+
+Training:
+
+Achieved >97% training accuracy and ~96% validation accuracy in 5 epochs.
+
+Model Output:
+
+Saved as cactus_model.h5 (HDF5 format).
+
+
+
+🌐 Web Application with Streamlit
+We created an interactive web interface where users can:
+
+Upload any aerial image
+
+Get instant prediction: Cactus Present or Not Present
+
+View the image and model response
+
+
+
+🚀 Future Improvements
+Add transfer learning using pretrained models (e.g., MobileNet, ResNet).
+
+Perform data augmentation to improve robustness.
+
+Deploy the app on Hugging Face Spaces or Streamlit Cloud.
+
+Expand to multi-class plant detection problems.
+
+
+
+📦 Project Files
+
+📁 cactus-identification/
+├── cactus_model.h5         # Trained model
+├── app.py                  # Streamlit app
+├── train.csv               # Dataset labels
+├── train/                  # Image folder
+├── cactus_notebook.ipynb   # Training code
+├── requirements.txt        # Dependencies
+├── README.md
+└── project_description.txt # (this file)

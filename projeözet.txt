@@ -1,0 +1,20 @@
+📌 Proje Özeti
+Bu yarışmanın amacı, hava fotoğraflarında belirli bir tür kaktüsün (Neobuxbaumia tetetzo) bulunup bulunmadığını tespit edebilen bir algoritma geliştirmektir. Veri seti, 32x32 piksel boyutunda, etiketlenmiş küçük renkli görüntülerden oluşmaktadır. Her görüntü, kaktüs içerip içermediğine göre 1 (var) veya 0 (yok) olarak etiketlenmiştir.
+
+
+Basit ve Anlaşılır Problem Tanımı: İkili sınıflandırma problemi olması nedeniyle, temel makine öğrenmesi tekniklerini uygulamak için idealdir.
+
+Derin Öğrenme Uygulamaları: Convolutional Neural Networks (CNN) gibi derin öğrenme modellerini uygulayarak pratik yapma imkanı sunar.
+
+Gerçek Dünya Uygulaması: Bu proje, çevresel izleme ve koruma alanlarında kullanılabilecek algoritmalar geliştirme açısından gerçek dünya problemleriyle bağlantılıdır.
+
+Topluluk Desteği: Kaggle üzerinde bu yarışmaya ait birçok örnek çözüm ve tartışma bulunmaktadır, bu da öğrenme sürecini destekler.
+
+
+Veri Keşfi (EDA): Veri setini inceleyerek, görüntülerin dağılımı ve etiketlerin dengesi hakkında bilgi edinebilirsin.
+
+Model Geliştirme: Keras veya PyTorch kullanarak basit bir CNN modeli oluşturabilir veya transfer öğrenme teknikleriyle önceden eğitilmiş modelleri kullanabilirsin.
+
+Model Değerlendirme: Modelinin performansını doğruluk, hassasiyet, geri çağırma ve F1 skoru gibi metriklerle değerlendirebilirsin.
+
+Sonuçların Sunumu: Elde ettiğin sonuçları grafikler ve görsellerle destekleyerek, modelinin başarısını ve karşılaştığın zorlukları açıklayabilirsin.
